@@ -19,10 +19,10 @@
 -- Table structure for table `new_table`
 --
 
-DROP TABLE IF EXISTS `animals_test`;
+DROP TABLE IF EXISTS `animals`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
-CREATE TABLE `animals_test` (
+CREATE TABLE `animals` (
   `AnimalId` int(11) NOT NULL AUTO_INCREMENT,
   `Type` varchar(255) DEFAULT NULL,
   `Name` varchar(45) DEFAULT NULL,
