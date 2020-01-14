@@ -24,9 +24,9 @@ DROP TABLE IF EXISTS `animals`;
  SET character_set_client = utf8mb4 ;
 CREATE TABLE `animals` (
   `AnimalId` int(11) NOT NULL AUTO_INCREMENT,
-  `Type` varchar(255) DEFAULT NULL,
-  `Name` varchar(45) DEFAULT NULL ASC,
-  `Date` datetime DEFAULT NULL,
+  `Type` varchar(255) DEFAULT NULL,/* ASC*/
+  `Name` varchar(45) DEFAULT NULL, 
+  `Date` datetime DEFAULT NULL, /* DESC*/
   `Gender` varchar(45) DEFAULT NULL,
   `Breed` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`AnimalId`)
