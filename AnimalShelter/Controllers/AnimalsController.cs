@@ -33,7 +33,7 @@ namespace Animals.Controllers
     }
     public ActionResult Details(int id)
     {
-    Item thisAnimal= _db.Animals.FirstOrDefault(animals => animals.AnimalId == id);
+    Animal thisAnimal= _db.Animals.FirstOrDefault(animals => animals.AnimalId == id);
     return View(thisAnimal);
     }
   }
