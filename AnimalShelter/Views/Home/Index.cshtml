@@ -3,4 +3,7 @@
 }
 
 @*<h1>  VWAG's Animal Shelter!</h1>*@
+orderByQueryOption = "$orderby" [type] "=" [type] commonExpression [type] [asc / desc]
+                      @* ( "," [type]  commonExpression [type] [asc])*@
 <p>@Html.ActionLink("See all animals", "Index", "Animals")</p>
+@*<p>@Html.ActionLink(http://host/service.svc/Type?$orderby=Animals.Type asc)</p>*@
